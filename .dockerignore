@@ -1,0 +1,22 @@
+# Logs
+node_modules
+logs
+*.log
+tmp
+.cache
+
+# Conf
+.env
+.env.local
+*.cnf
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# Local
+*.sql
+*.db
+*.tar
+*.gz
+*.zip
