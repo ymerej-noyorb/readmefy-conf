@@ -34,7 +34,6 @@ services:
         condition: service_healthy
     environment:
       - READMEFY_ENV=${READMEFY_ENV}
-      - READMEFY_TOKEN=${READMEFY_TOKEN}
       - READMEFY_SECRET=${READMEFY_SECRET}
       - READMEFY_USER=${READMEFY_USER}
       - READMEFY_PASSWORD=${READMEFY_PASSWORD}
